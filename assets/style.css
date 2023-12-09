@@ -42,7 +42,6 @@ body{
 }
 
 
-
 .container {
     position: relative;
     display:flex;
@@ -61,7 +60,10 @@ body{
 }
 
 .textbox:hover{
-    background: whitesmoke;
+    background: url(assets/Ahmed_Tahsin_citybrandingcopy.png);
+    background-size: cover;
+    background-size: cover;
+    border: 2px solid red;
 }
 .text{
     position: absolute;
@@ -73,13 +75,18 @@ body{
 }
 
 img{
-    height: 160%;
-    width: 30%;
-    margin-top: 10%;
+    height: 300px;
+    width: 40%;
+    margin-top: 6%;
     margin-left: 40%;
+    background-color: blanchedalmond;
+    
 }
 
 a {
     text-decoration: none;
     color: inherit;
   }
+
+
+  
