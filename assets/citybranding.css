@@ -241,13 +241,15 @@ video {
     right: 5px;
 }
 
-.resizable-image11{
+.resizable-image12{
+    max-width: 70%;
     height: 50%;
     width: auto;
-    margin-left: 30%;
+    flex: 3;
 }
 
 .pictogram1{
+    display: flex;
     background-color: rgb(255, 255, 255);
     font-size: 30px;
     color: rgb(33, 68, 24);
@@ -256,8 +258,10 @@ video {
 }
 
 #pictogram{
-    
-    margin-top: -10%;
+    flex: 1;
+    font-size: 30px;
+    margin-top: 320px;
+    margin-left:15%;
 
 
 }
