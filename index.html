@@ -8,49 +8,45 @@
     </head>
 
     <body>
-
+        <script>
+            function changePage(page_href) {
+                window.location.href = page_href;
+            }
+        </script>
         <title>Tahsin</title>
-    
-
-        
         <div class="TopBar">
             <div class="TahsinAhmed">Tahsin Ahmed</div>
-            
             <div class="bar">
                 <span id="work">Work</span>
-        
-                
-                
-                <a href="About_page.html"><span>About</span></a><a href="Contact_page.html"><span>Contact</span></a>  </div>
-            
+                <a href="About_page.html">
+                    <span>About</span>
+                </a>
+                <a href="Contact_page.html">
+                    <span>Contact</span>
+                </a>  
+            </div>
         </div>
-
-    
-        
 
 
 
      <div class="container">
         <div class="text">Illustrations</div>
-        <div class="textbox"></div>
+        <!--<a href="Illustrations.html">
+        <img src="assets/images/l.png">-->
+        
+        </a>
+        <div class="textboxIllustrations" onclick="changePage('Illustrations.html')"></div>
     </div>
 
     <div class="container">
         <div class="text">City Branding</div>
-        <a href="citybranding.html">
-        <img src="assets/images/Ahmed_Tahsin_citybrandingcopy.png">
     </a>
-        <div class="textbox"></div>
+        <div class="textboxCityBranding" onclick="changePage('citybranding.html')"></div>
     </div>
 
     <div class="container">
         <div class="text">Book Design</div>
-        <a href="Bookdesign.html">
-        <img src="assets/images/book.png">
-
-        </a>
-       
-        <div class="textbox"></div>
+        <div class="textboxBookdesign" onclick="changePage('Bookdesign.html')"></div>
     </div>
 
     <div class="container">

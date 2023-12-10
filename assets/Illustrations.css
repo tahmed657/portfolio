@@ -1,0 +1,43 @@
+body{
+    background-color: whitesmoke;
+}
+
+.TopBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*.TahsinAhmed {
+    font-family: 'Bodoni Moda', serif;
+    color: teal;
+    margin-left: 10%;
+    font-size: 60px;
+}*/
+
+.bar {
+    font-family: 'Bodoni Moda', serif;
+    color: teal;
+    font-size: 20px;
+    margin-right: 20%;
+    margin-top: 40px;
+    margin-left: 50%;
+
+}
+
+.bar span{
+    margin-left: 20px;
+}
+
+.image1{
+    max-height: 500%;
+}
+
+.image2{
+    max-height: 500%;
+}
+
+.box{
+    height: 140px;
+    width: 140px;
+}
