@@ -2,8 +2,35 @@ body{
     background-color:whitesmoke;
 }
 
+.TopBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*.TahsinAhmed {
+    font-family: 'Bodoni Moda', serif;
+    color: teal;
+    margin-left: 10%;
+    font-size: 60px;
+}*/
+
+.bar {
+    font-family: 'Bodoni Moda', serif;
+    color: teal;
+    font-size: 20px;
+    margin-right: 20%;
+    margin-top: 40px;
+    margin-left: 50%;
+
+}
+
+.bar span{
+    margin-left: 20px;
+}
+
 .box{
-    background-color: rgb(223, 200, 196);
+    background-color: white;
     height: 1000px;
     width: 1000px;
     margin-top: 10%;
@@ -11,21 +38,60 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    
+}
+
+.box2{
+   background-color: white;
+   height: 1000px;
+    width: 1000px;
+    margin-top :-2.5%;
+    
+    
 }
 
 .resizable-image {
-    max-width: 50%;
+    max-width: 60%;
     height: auto;
     display: block;
     margin: 0 auto;
     margin: -70px auto 0;
 }
 
+.resizable1-image{
+    width: 100%;
+    height: 40%;
+    display: block;
+    margin: 0 auto;
+    margin: -500px auto 0;
+    border-bottom: 10px solid rgb(55, 94, 55);
+}
+
 .resizable-image2 {
     max-width: 50%; 
     height: auto;
     display: block;
-    margin: 0 auto;
+    /*margin: 140px auto;*/
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 10%;
+    flex: 3;
+}
+
+p{
+    font-size: 50px;
+    color: rgb(33, 68, 24);
+    margin-top: 200px;
+    text-align: center;
+    flex: 1;
+}
+
+.pattern{
+    display: flex;
+    background-color: rgb(185, 197, 182);
+    margin-top: 5%;
+    height: 55%;
+    
 }
 
 .resizable-image3{
@@ -35,74 +101,163 @@ body{
     margin: 60px auto;
 
 }
+.resizable-image4{
+    max-width: 40%; 
+    margin-left: 50%;
+    transform: translate(0, -200px);
+}
+
+
+.resizable-image5{
+    max-width: 30%; 
+    margin-left: 10%;
+    transform: translate(0, -500px);
+}
+
+.resizable-image6{
+    max-width: 50%; 
+    margin-left: 5%;
+
+}
+
+.resizable-image7{
+    max-width: 55%;
+    margin-left: 50%;
+    margin-top: -47%;
+    
+
+}
+.event{
+    background-color: rgb(185, 197, 182);
+    margin-top: 5%;
+    transform: translateY(-500px);
+    height: 62%;
+}
+
+h1{
+    text-align:center;
+    margin-top: 5%;
+}
+
+h2{
+    text-align: center;
+    font-size: 15px;
+    
+}
+
+.text{
+    height: 60px;
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    
+}
+
+.b1-image1{
+    height: 40%;
+    margin-top: 20%;
+    margin-left: 5%;
+
+
+}
+
+.b1-image2{
+    height: 40%;
+    margin-left: 8%;
+
+
+}
+
+.b1-image3{
+    height: 40%;
+    margin-left: 7%;
+
+
+}
+
+.b1-image4{
+    height: 40%;
+    margin-left: 22%;
+    margin-top: 5%;
+
+}
+
+.b1-image5{
+    height: 40%;
+    margin-left: 7%;
+
+
+}
+
+.hr {
+    height: 10px;
+    background-color: green;
+}
+
+video {
+    width: 640px;
+    height: 360px;
+    position: absolute;
+    top: 387%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
+
 .slider {
-    position: relative;
-    width: 100%;
-    max-width: 600px;
-    margin: auto;
     overflow: hidden;
-}
-
-.slides {
-    display: flex;
-    width: 200%;
-    transition: transform 0.5s ease-in-out;
-}
-
-.resizable-image3 {
-    flex: 1;
-    max-width: 100%;
-    height: auto;
-}
-
-
-.slider {
-    position: relative;
     width: 100%;
-    max-width: 600px;
-    margin: auto;
-    overflow: hidden;
+    position: relative;
 }
 
-.slides {
-    display: flex;
-    flex-direction: column;
-    width: 200%;
-    transition: transform 0.5s ease-in-out;
+.slide {
+    display: none;
+    width: 100%;
 }
 
-.slides {
-    display: flex;
-    flex-direction: column;
-}
-
-.resizable-image3 {
-    flex: 1;
-    max-width: 100%;
+.resizable-image8,
+.resizable-image9,
+.resizable-image10,
+.resizable-image11 {
+    max-width: 70%; 
     height: auto;
+    margin-left: 15%;
 }
 
 .arrow {
     position: absolute;
-    bottom: 10px;
+    top: 50%;
+    transform: translateY(-50%);
     font-size: 24px;
-    color: #333;
     cursor: pointer;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
-#slide1 .arrow {
-    right: 10px;
+.arrow-left {
+    left: 5px; 
 }
 
-#slide2 .arrow {
-    display: none; 
+.arrow-right {
+    right: 5px;
 }
 
-input[type="radio"] {
-    display: none;
+.resizable-image11{
+    height: 50%;
+    width: auto;
+    margin-left: 30%;
 }
 
-input[type="radio"]:checked + .slides {
-    transform: translateX(-50%);
+.pictogram1{
+    background-color: rgb(255, 255, 255);
+    font-size: 30px;
+    color: rgb(33, 68, 24);
+    margin-top: -.5%;
+    
 }
 
+#pictogram{
+    
+    margin-top: -10%;
+
+
+}
