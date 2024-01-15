@@ -1,0 +1,65 @@
+
+body{
+    background-color: black;
+}
+
+.container {
+    position: relative;
+}
+
+.first{
+    color: whitesmoke;
+    font-family: Deutsch Gothic;
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+    top: 40%;
+    position: absolute;
+}
+
+.highlight:hover {
+    color: rgb(136, 18, 18);
+    font-size: 150px;
+}
+
+.Beauty{
+    color: rgb(136, 18, 18);
+    font-size: 50px;
+    width: 100%;
+    top: 50px;
+    font-family: Deutsch Gothic;
+    text-align: center;
+}
+
+.p{
+    color: rgb(136, 18, 18);
+}
+
+.arrowDiv{
+    display: flex;
+    text-align: center;
+}
+.arrow1{
+    font-size:50px;
+    right: 50px;
+    margin-left: 10%;
+
+}
+
+.home{
+    font-size:50px;
+    right: 150px;
+    margin-left: 35%;
+
+}
+
+.arrow2{
+    font-size:50px;
+    right: 170px;
+    margin-left: 30%;
+
+}
+
+a {
+    text-decoration: none;
+}

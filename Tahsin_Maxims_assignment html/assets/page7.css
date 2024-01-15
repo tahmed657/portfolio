@@ -1,0 +1,79 @@
+body{
+    background-color: black;
+      font-family: Textura;
+      color: rgb(49, 255, 8);
+      text-align: center;
+      text-shadow: 2px 2px 4px #006400;
+      
+}
+
+
+.Hidden{
+    color: black;
+    font-size: 150px;
+
+    transition: transform 0.5s;
+
+}
+
+
+.Hidden:hover{
+    color:rgb(85, 250, 52);
+    transform: scale(1.5);
+}
+
+.in{
+    color: black;
+    text-align: left;
+    font-size: 500px;
+    transition: font-size 0.5s;
+}
+
+.in:hover{
+    color:rgb(85, 250, 52);
+    font-size: 16px;
+}
+
+.Shadows{
+    font-size: 20px;
+    color: black;
+    transition: font-size 0.5s;
+}
+
+.Shadows:hover{
+    color: rgb(85, 250, 52);
+    font-size: 300px;
+    text-shadow: 25px 25px 38px #006400;
+
+    
+}
+
+.arrowDiv{
+    display: flex;
+    top: 200px;
+    position: relative;
+}
+.arrow1{
+    text-align: left;
+    font-size:50px;
+    right: 50px;
+
+}
+
+.home{
+    font-size:50px;
+    right: 150px;
+    margin-left: 50%;
+
+}
+
+.arrow2{
+    font-size:50px;
+    right: 1700px;
+    margin-left: 40%;
+
+}
+
+a {
+    text-decoration: none;
+}

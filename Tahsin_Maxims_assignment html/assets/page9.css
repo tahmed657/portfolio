@@ -1,0 +1,109 @@
+/*body{
+    background-color: black;
+    font-family: Luminari;
+    color: rgb(255, 55, 188);
+    font-size: 70px;
+    transition: all 1s ease;
+    
+
+}
+
+.Mystery:hover{
+    position: absolute;
+    transform: translate(-190px, 295px);
+    transition: all 1s ease;
+
+}*/
+body{
+    background-color: black;
+}
+.frist{
+    font-family: Luminari;
+    color:rgb(162, 0, 255);
+    font-size: 70px;
+    text-align: center;
+}
+
+.more:hover{
+    font-size: 220px;
+   
+    transition: all 0.3s;
+}
+
+.more:hover {
+    color: rgb(200, 155, 219);
+    font-size: 220px;
+    transform: rotate(360deg);
+    transform-origin: center;
+    transform: translateX(-100px)
+}
+
+
+.frist2{
+    transform: rotate(-15deg);
+}
+
+
+  .find {
+    cursor: pointer;
+    position: relative;
+  }
+
+
+  .find::after {
+    content: "star";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #ffcc00;
+    clip-path: polygon(50% 0%, 61.8% 38.2%, 100% 50%, 61.8% 61.8%, 50% 100%, 38.2% 61.8%, 0% 50%, 38.2% 38.2%);
+    top: 90%;
+    left: 90%;
+    transform: translate(-90%, -50%);
+    opacity: 0;
+    z-index: -1;
+    transition: all 0.5s ease;
+    display: block;
+  }
+
+    .find:hover::after {
+      width: 100px;
+      height: 100px;
+      background-color: #ffcc00;
+      clip-path: polygon(50% 0%, 61.8% 38.2%, 100% 50%, 61.8% 61.8%, 50% 100%, 38.2% 61.8%, 0% 50%, 38.2% 38.2%);
+      opacity: 1;
+      transform: rotate(90deg) scale(1.7);
+    }
+
+
+.arrowDiv{
+    display: flex;
+    top: 600px;
+    position: relative;
+}
+.arrow1{
+    font-size:50px;
+    right: 20;
+
+}
+
+.home{
+    font-size:50px;
+    right: 150px;
+    margin-left: 40%;
+
+}
+
+.arrow2{
+    font-size:50px;
+    right: 1700px;
+    margin-left: 40%;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+

@@ -1,0 +1,96 @@
+
+
+body {
+    background-color: #080000;
+    color: tomato;
+    font-family: Deutsch Gothic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+ 
+  .highlight:hover{
+      color: black;
+
+
+  }
+  .path1 {
+    font-size: 50px;
+    position: relative;
+    text-align: center;
+  }
+
+  .path1::before {
+    content: "Cursed is the ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotate(-15deg);
+  }
+
+  .path1::after {
+    content: "Less Taken";
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: rotate(15deg);
+  }
+  .path2{
+    font-size: 50px;
+    position: relative;
+    text-align: center;
+  }
+  .path2:before {
+    content: "Cursed is the ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotate(-25deg);
+  }
+
+  .path2:after {
+    content: "Less Taken";
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: rotate(25deg);
+  }
+  .container:hover .highlight{
+    color: black;
+  }
+  .arrowDiv{
+    display: flex;
+}
+  .arrow1{
+    text-align: left;
+    font-size:50px;
+    right: 70px;
+    top: 70px;
+    position: relative;
+
+}
+
+.home{
+    font-size:50px;
+    right: 150px;
+    margin-left: 67%;
+    top: 70px;
+    position: relative;
+
+}
+
+.arrow2{
+    font-size:50px;
+    right: 1700px;
+    margin-left: 30%;
+    margin-top: 80px;
+    top: 80px;
+    
+
+}
+
+a {
+    text-decoration: none;
+}

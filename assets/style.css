@@ -51,22 +51,24 @@ body{
 }
 
 .textbox{
-    background: linear-gradient(rgb(186, 221, 221), whitesmoke);
+    /*background: linear-gradient(rgb(186, 221, 221), whitesmoke);*/
+    background: url(assets/Ahmed_Tahsin_citybrandingcopy.png);
     margin-top: 10%;
     margin-left: 40%;
     height: 100%;
     width: 40%;
 }
 
-.textbox:hover{
+/*textbox:hover{
     background: url(assets/Ahmed_Tahsin_citybrandingcopy.png);
     background-size: cover;
     background-size: cover;
-    border: 2px solid red;
-}
+    
+}*/
 
 .textboxIllustrations{
-    background-image: linear-gradient(rgb(186, 221, 221), whitesmoke);
+   /* background-image: linear-gradient(rgb(186, 221, 221), whitesmoke);*/
+   background-image: url(images/l.png);
     margin-top: 10%;
     margin-left: 40%;
     height: 100%;
@@ -75,14 +77,15 @@ body{
     background-repeat: no-repeat;
 }
 
-.textboxIllustrations:hover{
+/*.textboxIllustrations:hover{
     background-image: url(images/l.png);
     background-size: cover;
-    border: 2px solid red;
-}
+    
+}*/
 
 .textboxCityBranding{
-    background-image: linear-gradient(rgb(186, 221, 221), whitesmoke);
+  /*  background-image: linear-gradient(rgb(186, 221, 221), whitesmoke);*/
+  background-image: url(Ahmed_Tahsin_citybranding.png);
     margin-top: 10%;
     margin-left: 40%;
     height: 100%;
@@ -91,14 +94,32 @@ body{
     background-repeat: no-repeat;
 }
 
-.textboxCityBranding:hover{
+/*.textboxCityBranding:hover{
     background-image: url(Ahmed_Tahsin_citybranding.png);
     background-size: cover;
-    border: 2px solid red;
-}
+    
+}*/
 
 .textboxBookdesign{
-    background-image: linear-gradient(rgb(186, 221, 221), whitesmoke);
+   /* background-image: linear-gradient(rgb(186, 221, 221), whitesmoke);*/
+   background-image: url(images/book2.png);
+   margin-top: 10%;
+    margin-left: 40%;
+    height: 100%;
+    width: 40%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*.textboxBookdesign:hover{
+    background-image: url(images/book2.png);
+    background-size: cover;
+    
+}*/
+
+.textboxWebdesign{
+    /*background-image: linear-gradient(rgb(186, 221, 221), whitesmoke);*/
+    background-image: url(images/w.png);
     margin-top: 10%;
     margin-left: 40%;
     height: 100%;
@@ -107,11 +128,11 @@ body{
     background-repeat: no-repeat;
 }
 
-.textboxBookdesign:hover{
-    background-image: url(images/book.png);
+/*.textboxWebdesign:hover{
+    background-image: url(images/w.png);
     background-size: cover;
-    border: 2px solid red;
-}
+    
+}*/
 
 .text{
     position: absolute;
@@ -135,6 +156,12 @@ a {
     text-decoration: none;
     color: inherit;
   }
+
+  .cilck{
+      font-size: 10px;
+      margin-left: 40%;
+  }
+  
 
   
 

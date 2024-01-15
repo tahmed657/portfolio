@@ -8,26 +8,30 @@ body{
     align-items: center;
 }
 
-/*.TahsinAhmed {
+.TahsinAhmed {
     font-family: 'Bodoni Moda', serif;
     color: teal;
     margin-left: 10%;
     font-size: 60px;
-}*/
+}
 
 .bar {
     font-family: 'Bodoni Moda', serif;
     color: teal;
     font-size: 20px;
     margin-right: 20%;
+    /*margin-left: 50%;*/
     margin-top: 40px;
-    margin-left: 50%;
 
 }
-
+.bar a {
+    text-decoration: none;
+    color: teal;
+}
 .bar span{
     margin-left: 20px;
 }
+
 
 .slideshow-container {
     max-width: 600px;

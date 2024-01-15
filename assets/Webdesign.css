@@ -1,0 +1,74 @@
+body{
+    background-color: whitesmoke;
+}
+
+.TopBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.TahsinAhmed {
+    font-family: 'Bodoni Moda', serif;
+    color: teal;
+    margin-left: 10%;
+    font-size: 60px;
+}
+
+.bar {
+    font-family: 'Bodoni Moda', serif;
+    color: teal;
+    font-size: 20px;
+    margin-right: 20%;
+    /*margin-left: 50%;*/
+    margin-top: 40px;
+
+}
+.bar a {
+    text-decoration: none;
+    color: teal;
+}
+.bar span{
+    margin-left: 20px;
+}
+
+.box1{
+    height: 300px;
+    width: 300px;
+    background-color: teal;
+    margin-top: 10%;
+    margin-left: 15%;
+}
+
+.box2{
+    height: 300px;
+    width: 200px;
+    background-color: teal;
+    margin-top: -21%;
+    margin-left: 50%;
+}
+
+.resizable{
+    height: 100%;
+
+}
+
+.resizable2{
+    height: 100%;
+  
+}
+
+.text1{
+    font-family: serif;
+    font-size: 10px;
+    margin-top: 10%;
+    
+}
+
+.text2{
+    font-family: serif;
+    font-size: 10px;
+    margin-top: 10%;
+}
+
+

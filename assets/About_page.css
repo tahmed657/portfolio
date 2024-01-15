@@ -22,19 +22,29 @@ body{
     color: teal;
     font-size: 20px;
     margin-right: 20%;
-    margin-left: 50%;
+    /*margin-left: 50%;*/
     margin-top: 40px;
 
 }
-
+.bar a {
+    text-decoration: none;
+    color: teal;
+}
 .bar span{
     margin-left: 20px;
 }
 
-.text{
-    color: rgb(243, 206, 136);
-    width: 100px;
-    height: 100px;
+
+.box{
+    height: 500px;
+    width: 50%;
+    
     margin-left: 10%;
+    margin-top: 5%;
+}
+
+p{
+    color: teal;
+    font-family: 'Bodoni Moda', serif;
 }
 

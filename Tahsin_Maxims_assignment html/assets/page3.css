@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(24, 10, 34);
+    color: whitesmoke;
+}
+
+.lst {
+    position: relative;
+    font-family: Deutsch Gothic;
+    font-size: 40px;
+    text-align: center;
+    top: 20px;
+    bottom: 29px;
+    font-size: 11vw;
+    white-space: nowrap;
+    text-align: center;
+    width: 100%;
+    animation: moveText 3s linear infinite alternate, scaleText 2s ease-in-out infinite, colorChange 4s ease infinite, opacityChange 3s ease-in-out infinite;
+    background: linear-gradient(90deg, #e5ff00, #e8f88a, #f1f50f);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+@keyframes moveText {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(20px);
+  }
+}
+@keyframes scaleText {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.4);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+.truth:hover{
+    font-size: 400px;
+
+
+}
+
+.deceit:hover{
+    font-size: 20px;
+
+}
+.arrowDiv{
+    display: flex;
+    text-align: center;
+    top: 100px;
+}
+.arrow1{
+    font-size:50px;
+    right: 50px;
+    margin-left: 10%;
+    top: 400px;
+    position: relative;
+
+}
+
+.home{
+    font-size:50px;
+    right: 150px;
+    margin-left: 45%;
+    top: 400px;
+    position: relative;
+
+}
+
+.arrow2{
+    font-size:50px;
+    right: 170px;
+    margin-left: 40%;
+    top: 400px;
+    position: relative;
+
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,85 @@
+body{
+    background-color: black;
+    font-family: Luminari;
+    color: rgb(255, 55, 188);
+    font-size: 100px;
+    transition: all 1s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+  Mystery {
+    display: inline-block;
+    position: relative;
+    transition: all 1s ease;
+  }
+
+
+.Mystery:hover{
+    position: absolute;
+    transform: translate(-190px, 295px);
+}
+
+  .Shrouded {
+    display: inline-block;
+    position: relative;
+  }
+  .Shrouded::before {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(243, 178, 221, 0.5);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    z-index: -1;
+    transition: all 0.5s ease;
+      display: block;
+  }
+
+.Shrouded:hover::before {
+    width: 0;
+    height: 0;
+    border-left: 300px solid transparent; 
+    border-right: 300px solid transparent; 
+    border-bottom: 600px solid rgb(255, 55, 188, 0.5);
+    opacity: 1;
+  }
+
+  
+
+
+.arrowDiv{
+    display: flex;
+    top: 200px;
+    position: relative;
+}
+.arrow1{
+    text-align: left;
+    font-size:50px;
+    right: 50px;
+
+}
+
+.home{
+    font-size:50px;
+    right: 150px;
+    margin-left: 50%;
+
+}
+
+.arrow2{
+    font-size:50px;
+    right: 1700px;
+    margin-left: 40%;
+
+}
+
+a {
+    text-decoration: none;
+}

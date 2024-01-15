@@ -1,0 +1,321 @@
+body{
+    background: linear-gradient(to right,rgb(238, 127, 179), #e4deb9);
+}
+
+h1{
+    text-align: center;
+    font-family: darling;
+    font-family: merrycle carved;
+    font-size: 90px;
+    color: rgb(253, 239, 242);
+    text-shadow:
+     -4px -4px 0 rgb(248, 132, 177),
+     4px -4px 0 rgb(248, 132, 177),
+    -4px  4px 0 rgb(248, 132, 177),
+     4px  4px 0 rgb(248, 132, 177);
+
+}
+
+h2{
+    height: 10px;
+    width: 10px;
+}
+
+h3{
+    color:white;
+}
+.divbutton{
+    text-align: center;
+    font: 30px sans-serif;
+    background: linear-gradient(to right,rgb(238, 234, 216), #eca9d0);
+    border-style: double pink;
+}
+
+
+.button1{
+    height: 50px;
+    width: 70px;
+    border: rgb(236, 122, 122);
+    border:3px double rgb(236, 122, 122);
+    font-size: 30px;
+
+}
+.button1:hover{
+      background-color: rgb(206, 170, 238);
+      border-style: solid;
+
+}
+.button2:hover{
+    background: linear-gradient(to right, #f7e57f, #ffb3d9);
+
+}
+.button2{
+    height: 50px;
+    width: 70px;
+    background: linear-gradient(to right, #ffb3d9, #f7e57f);
+    border: 5px double pink;
+    font-size: 30px;
+}
+
+.button3 {
+    background-color:rgb(186, 236, 236);
+    height: 50px;
+    width: 70px;
+    border-radius: 5px;
+    border-color: indigo;
+    font-size: 30px;
+
+}
+.button3:hover{
+    background-color: tomato;
+}
+.button4:hover {
+    background-color: rgb(233, 149, 149);
+    box-shadow: 2px 2px 5px #888888;
+}
+.button4{
+    height: 50px;
+    width: 70px;
+    background-color: rgb(190, 190, 253);
+    border-style: solid;
+    border-color: rgb(109, 136, 245);
+    font-size: 30px;
+
+}
+
+.button5 {
+    height: 50px;
+    width: 70px;
+    border-style: solid;
+    border-color: purple;
+    font-size: 30px;
+    background: linear-gradient(to right, #8fbffd, #db9973);
+   
+}
+
+.button5:hover{
+    background-color: teal;
+    color: thistle;
+}
+.button6{
+    background-color: rgb(168, 138, 196);
+
+    height: 50px;
+    width: 70px;
+    font-size: 30px;
+}
+
+.button6:active {
+    background-color: darkslateblue;
+    border: 2px solid #8A2BE2;
+    animation: border-pulse 0.5s ease-in-out;
+}
+
+@keyframes border-pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+.button7{
+    height: 50px;
+    width: 70px;
+    font-size: 30px;
+    border-color: deeppink;
+    border: 3px solid deeppink;
+    
+}
+.button7:hover {
+    background-color: deeppink;
+    color: darkturquoise;
+    opacity: 0.8;
+    transition: opacity 0.3s ease-in-out;  
+    border-color: whitesmoke;
+    border-style: 3px double;
+    
+}
+
+.button8{
+    height: 50px;
+    width: 70px;
+    background: linear-gradient(to right, #ea9bf1, #f7ae50);
+    border-top: rgb(248, 193, 141);
+    border-bottom-color: rgb(241, 179, 241);
+    border-style:outset;
+    border-right-color: rgb(248, 193, 141);
+    border-left-color:rgb(241, 179, 241) ;
+    font-size: 30px;
+}
+.button8:hover{
+    opacity: 0.8;
+    transition: opacity 0.3s ease-in-out;
+    background: linear-gradient(to right, #f7ae50, #ea9bf1);
+}
+
+.button9{
+    background-color: mediumpurple;
+    height: 50px;
+    width: 70px;
+    border: 5px double powderblue;
+    font-size: 30px;
+
+
+}
+
+.button10{
+    background-color: rgb(236, 122, 122);
+    height: 50px;
+    width: 70px;
+    border-color: red;
+    font-size: 30px;
+
+}
+.button10:hover{
+    background-color: white;
+}
+.button11{
+    background-color: rgb(226, 174, 174);
+    color: rgb(0, 130, 69);
+    height: 50px;
+    width: 70px;
+    border-color: indigo;
+    border-bottom: indigo;
+    border-top: indigo;
+    font-size: 30px;
+
+}
+
+.button12{
+    background-color: lightblue;
+    height: 50px;
+    width: 70px;
+    border: 3px dotted rgb(230, 176, 216);
+    font-size: 30px;
+}
+.button12:hover{
+    background-color:rgb(230, 176, 216) ;
+    border: 3px dotted lightblue;
+}
+
+.button13{
+    background-color: rgb(224, 169, 224);
+    height: 50px;
+    width: 70px;
+    border-color: rgb(97, 42, 42);
+    border-style:dotted;
+    font-size: 30px;
+}
+
+.button13:hover{
+    background-color: magenta;
+}
+
+.button14{
+    height: 50px;
+    width: 70px;
+    background: linear-gradient(to right, #c2f5a4, #8284fa);
+    border-radius: 6px;
+    font-size: 30px;
+
+}
+
+.button15{
+        height: 50px;
+        width: 70px;
+        background: linear-gradient(to right, #fdfdfd, #e927a8);
+        border-style:outset;
+         border-right-color:rgb(241, 179, 241);
+        border-left-color:rgb(241, 179, 241) ;
+        font-size: 30px;
+        
+}
+
+.button15:hover{
+    background: linear-gradient(to right, #e927a8, #fdfdfd,);
+    border-style: double;
+    border-color: rgb(248, 236, 242);
+
+}
+.button16{
+    height: 50px;
+    width: 70px;
+    border-style: double;
+    border-color: rgb(238, 115, 156);
+    font-size: 30px;
+}
+
+.button16:hover{
+    background-color: rgb(247, 214, 236);
+    border: rgb(255, 255, 255);
+    border-style: dotted;
+    
+
+}
+
+.button17{
+    height: 50px;
+    width: 70px;
+    font-size: 30px;
+    border-color: rgb(209, 236, 153);
+
+
+}
+
+.button17:active {
+    background-color: rgb(132, 61, 139);
+    border: 5px dotted #c2eb9c;
+    animation: border-pulse 0.5s ease-in-out;
+}
+
+@keyframes border-pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+.button18{
+    background: linear-gradient(to right, #fdfdfd, #e9d627);
+    height: 50px;
+    width: 70px;
+    border-color: rgb(240, 228, 121);
+    font-size: 30px;
+}
+
+.button18:hover{
+    border-color: linear-gradient(to right, #fdfdfd, #e9d627);
+    background: linear-gradient(to right, #e9d627, #fdfdfd);
+}
+
+
+.button19{
+    height: 50px;
+    width: 70px;
+    border-style: double;
+    border-top: plum;
+    border-bottom: fuchsia;
+    border-radius: 6px;
+    background-color: rgb(182, 209, 169);
+    background: linear-gradient(to right,rgb(182, 209, 169), #fca3fc);
+    font-size: 30px;
+
+
+}
+.button19:hover{
+    background: linear-gradient(to right,rgb(162, 223, 131), #e263e2);
+}
+.button20:hover{
+    height: 50px;
+    width: 70px;
+    background: linear-gradient(to right, #e3a3f7, #6699f7);
+    transition: opacity 0.3s ease-in-out; 
+    border-color: rgb(243, 155, 199);
+
+}
+
+.button20{
+    height: 50px;
+    width: 70px;
+    background-color: rgb(240, 209, 214);
+    border-color: rgb(158, 174, 238);
+    font-size: 30px;
+}
+

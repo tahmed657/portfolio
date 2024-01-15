@@ -8,23 +8,26 @@ body{
     align-items: center;
 }
 
-/*.TahsinAhmed {
+.TahsinAhmed {
     font-family: 'Bodoni Moda', serif;
     color: teal;
     margin-left: 10%;
     font-size: 60px;
-}*/
+}
 
 .bar {
     font-family: 'Bodoni Moda', serif;
     color: teal;
     font-size: 20px;
     margin-right: 20%;
+    /*margin-left: 50%;*/
     margin-top: 40px;
-    margin-left: 50%;
 
 }
-
+.bar a {
+    text-decoration: none;
+    color: teal;
+}
 .bar span{
     margin-left: 20px;
 }
@@ -42,7 +45,7 @@ body{
 }
 
 .box2{
-   background-color: white;
+  
    height: 1000px;
     width: 1000px;
     margin-top :-2.5%;
@@ -136,7 +139,7 @@ p{
 
 h1{
     text-align:center;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 h2{
@@ -195,10 +198,11 @@ h2{
 }
 
 video {
+    background-color: white;
     width: 640px;
     height: 360px;
     position: absolute;
-    top: 387%; 
+    top: 380%; 
     left: 50%; 
     transform: translate(-50%, -50%); 
 }
@@ -265,3 +269,10 @@ video {
 
 
 }
+
+.box3{
+    background-color: white;
+    margin-top: -60px;
+   
+}
+

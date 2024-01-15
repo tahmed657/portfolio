@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(17, 15, 15);
+    overflow-x: hidden;
+    max-width: 100%;
+}
+.container {
+    position: relative;
+    font-size: 100px;
+}
+.frist{
+    text-align: center;
+    font-family: textura;
+    color: rgb(6, 5, 7);
+    
+    font-size: 200px;
+    animation: slide 5s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+.s{
+    font-family: textura;
+    color: rgb(93, 25, 252);
+    font-size: 100px;
+    
+}
+.frist:hover{
+    color:rgb(93, 25, 252) ;
+    text-shadow: 10px 10px 8px rgba(255, 247, 247, 0.5);
+    
+}
+
+.s:hover{
+    color:black;
+}
+
+.arrowDiv{
+    display: flex;
+}
+
+.arrow1{
+    text-align: left;
+    font-size:50px;
+    right: 50px;
+
+}
+
+.home{
+    font-size:50px;
+    right: 150px;
+    margin-left: 50%;
+
+}
+
+.arrow2{
+    font-size:50px;
+    margin-left: 40%;
+}
+
+a {
+    text-decoration: none;
+}

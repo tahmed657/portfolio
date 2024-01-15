@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+    color:rgb(27, 247, 255);
+    text-align: center;
+    font-family: Deutsch Gothic;
+    font-size: 80px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+ }
+
+
+
+
+  
+.first{
+    position: relative;
+    animation: moveUpDown 2s linear infinite alternate;
+}
+@keyframes moveUpDown {
+    0% {
+      transform: translateY(0) scaleY(1.5);
+    }
+    100% {
+      transform: translateY(1000px) scaleY(2);
+    }
+  }
+
+.arrowDiv{
+    display: flex;
+    margin-top: 50%;
+    
+}
+.arrow1{
+    text-align: left;
+    font-size:50px;
+    right: 50px;
+
+}
+
+.home{
+    font-size:50px;
+    right: 150px;
+    margin-left: 50%;
+
+}
+
+
+
+a {
+    text-decoration: none;
+}
